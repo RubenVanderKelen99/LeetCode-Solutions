@@ -16,7 +16,7 @@ public class app {
 
         palindromeLinkedList palindromeLinkedList = new palindromeLinkedList();
         ListNode listNode = new ListNode(1, new ListNode(2, new ListNode(2, new ListNode(1))));
-        ListNode listNode2 = new ListNode(1, new ListNode(2));
+        ListNode listNode2 = new ListNode(1, new ListNode(0, new ListNode(1)));
         System.out.println(palindromeLinkedList.isPalindrome(listNode));
         System.out.println(palindromeLinkedList.isPalindrome(listNode2));
     }
