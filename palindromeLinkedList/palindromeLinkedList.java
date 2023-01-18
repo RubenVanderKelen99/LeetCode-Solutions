@@ -1,6 +1,6 @@
 // 234. Palindrome Linked List
 // https://leetcode.com/problems/palindrome-linked-list/
-
+package palindromeLinkedList;
 import java.util.ArrayList;
 import java.util.Collections;
 
