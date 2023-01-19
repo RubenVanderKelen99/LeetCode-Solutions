@@ -25,5 +25,10 @@ public class app {
         System.out.println(palindromeLinkedList.isPalindrome(listNode));
         System.out.println(palindromeLinkedList.isPalindrome(listNode2));
         */
+
+        fizzBuzz fizzBuzz = new fizzBuzz();
+        System.out.println(fizzBuzz.solution(3));
+        System.out.println(fizzBuzz.solution(5));
+        System.out.println(fizzBuzz.solution(15));       
     }
 }
