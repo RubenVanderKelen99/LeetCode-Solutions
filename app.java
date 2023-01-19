@@ -1,5 +1,9 @@
-import palindromeLinkedList.ListNode;
-import palindromeLinkedList.palindromeLinkedList;
+import middleOfTheLinkedList.middleOfTheLinkedList;
+
+//import palindromeLinkedList.ListNode;
+//import palindromeLinkedList.palindromeLinkedList;
+import middleOfTheLinkedList.middleOfTheLinkedList;
+import middleOfTheLinkedList.ListNode;
 
 public class app {
     public static void main(String[] args) throws Exception {
@@ -26,9 +30,17 @@ public class app {
         System.out.println(palindromeLinkedList.isPalindrome(listNode2));
         */
 
+        /*
         fizzBuzz fizzBuzz = new fizzBuzz();
         System.out.println(fizzBuzz.solution(3));
         System.out.println(fizzBuzz.solution(5));
-        System.out.println(fizzBuzz.solution(15));       
+        System.out.println(fizzBuzz.solution(15));
+        */ 
+        
+        middleOfTheLinkedList middleOfTheLinkedList = new middleOfTheLinkedList();
+        ListNode listNode = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5)))));
+        ListNode listNode2 = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5, new ListNode(6))))));
+        System.out.println(middleOfTheLinkedList.middleNode(listNode));
+        System.out.println(middleOfTheLinkedList.middleNode(listNode2));
     }
 }

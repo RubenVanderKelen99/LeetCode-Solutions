@@ -2,7 +2,7 @@
 // https://leetcode.com/problems/palindrome-linked-list/
 package palindromeLinkedList;
 import java.util.ArrayList;
-import java.util.Collections;
+//import java.util.Collections;
 
 public class palindromeLinkedList {
     public boolean isPalindrome(ListNode head) {
