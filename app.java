@@ -1,9 +1,7 @@
-import middleOfTheLinkedList.middleOfTheLinkedList;
-
 //import palindromeLinkedList.ListNode;
 //import palindromeLinkedList.palindromeLinkedList;
-import middleOfTheLinkedList.middleOfTheLinkedList;
-import middleOfTheLinkedList.ListNode;
+//import middleOfTheLinkedList.middleOfTheLinkedList;
+//import middleOfTheLinkedList.ListNode;
 
 public class app {
     public static void main(String[] args) throws Exception {
@@ -35,12 +33,20 @@ public class app {
         System.out.println(fizzBuzz.solution(3));
         System.out.println(fizzBuzz.solution(5));
         System.out.println(fizzBuzz.solution(15));
-        */ 
-        
+        */
+
+        /*
         middleOfTheLinkedList middleOfTheLinkedList = new middleOfTheLinkedList();
         ListNode listNode = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5)))));
         ListNode listNode2 = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5, new ListNode(6))))));
         System.out.println(middleOfTheLinkedList.middleNode(listNode));
         System.out.println(middleOfTheLinkedList.middleNode(listNode2));
+        */
+
+        kWeakestRows kWeakestRows = new kWeakestRows();
+        int[][] mat = {{1,1,0,0,0},{1,1,1,1,0},{1,0,0,0,0},{1,1,0,0,0},{1,1,1,1,1}};
+        int[][] mat2 = {{1,0,0,0}, {1,1,1,1}, {1,0,0,0}, {1,0,0,0}};  
+        System.out.println(kWeakestRows.output(mat, 3));
+        System.out.println(kWeakestRows.output(mat2, 2));
     }
 }
