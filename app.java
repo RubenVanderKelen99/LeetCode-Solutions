@@ -43,10 +43,17 @@ public class app {
         System.out.println(middleOfTheLinkedList.middleNode(listNode2));
         */
 
+        /*
         kWeakestRows kWeakestRows = new kWeakestRows();
         int[][] mat = {{1,1,0,0,0},{1,1,1,1,0},{1,0,0,0,0},{1,1,0,0,0},{1,1,1,1,1}};
         int[][] mat2 = {{1,0,0,0}, {1,1,1,1}, {1,0,0,0}, {1,0,0,0}};  
         System.out.println(kWeakestRows.output(mat, 3));
         System.out.println(kWeakestRows.output(mat2, 2));
+        */
+
+        numberOfSteps numberOfSteps = new numberOfSteps();
+        System.out.println(numberOfSteps.getSteps(14));
+        System.out.println(numberOfSteps.getSteps(8));
+        System.out.println(numberOfSteps.getSteps(123));
     }
 }
