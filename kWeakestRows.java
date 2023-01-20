@@ -1,12 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.SortedMap;
-import java.util.TreeMap;
-import java.util.TreeSet;
-import java.util.Map.Entry;
 
 public class kWeakestRows {
     public int[] output(int[][] mat, int k) {
