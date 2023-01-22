@@ -51,9 +51,15 @@ public class app {
         System.out.println(kWeakestRows.output(mat2, 2));
         */
 
+        /*
         numberOfSteps numberOfSteps = new numberOfSteps();
         System.out.println(numberOfSteps.getSteps(14));
         System.out.println(numberOfSteps.getSteps(8));
         System.out.println(numberOfSteps.getSteps(123));
+        */
+
+        palindromePartitioning palindromePartitioning = new palindromePartitioning();
+        System.out.println(palindromePartitioning.partition("aab"));
+        System.out.println(palindromePartitioning.partition("a"));
     }
 }
