@@ -58,8 +58,16 @@ public class app {
         System.out.println(numberOfSteps.getSteps(123));
         */
 
+        /*
         palindromePartitioning palindromePartitioning = new palindromePartitioning();
         System.out.println(palindromePartitioning.partition("aab"));
         System.out.println(palindromePartitioning.partition("a"));
+        System.out.println(palindromePartitioning.partition("cbbbcc"));
+        */
+
+        findTheTownJudge findTheTownJudge = new findTheTownJudge();
+        System.out.println(findTheTownJudge.findJudge(2, new int[][] {{1,2}}));
+        System.out.println(findTheTownJudge.findJudge(3, new int[][] {{1,3},{2,3}}));
+        System.out.println(findTheTownJudge.findJudge(3, new int[][] {{1,3},{2,3},{3,1}}));
     }
 }
