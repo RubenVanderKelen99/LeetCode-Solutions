@@ -112,5 +112,11 @@ public class app {
         System.out.println(longestCommonPrefix.longestCommonPrefix(new String[] {"flower", "flow", "flight"}));
         System.out.println(longestCommonPrefix.longestCommonPrefix(new String[] {"dog", "racecar", "car"}));
         */
+
+        
+        validParentheses validParentheses = new validParentheses();
+        System.out.println(validParentheses.isValid("()"));
+        System.out.println(validParentheses.isValid("()[]{}"));
+        System.out.println(validParentheses.isValid("("));
     }
 }
