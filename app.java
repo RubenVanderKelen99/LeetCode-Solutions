@@ -86,9 +86,23 @@ public class app {
         System.out.println(cheapestFlightWithinKStops.findCheapestPrice(3, new int[][] {{0, 1, 100}, {1, 2, 100}, {0, 2, 500}}, 0, 2, 0));
         */
 
+        /*
         richestCostumerWealth richestCostumerWealth = new richestCostumerWealth();
         System.out.println(richestCostumerWealth.maximumWealth(new int[][] {{1,2,3},{3,2,1}}));
         System.out.println(richestCostumerWealth.maximumWealth(new int[][] {{1,5},{7,3},{3,5}}));
         System.out.println(richestCostumerWealth.maximumWealth(new int[][] {{2,8,7},{7,1,3},{1,9,5}}));
+        */
+
+        /*
+        twoSum twoSum = new twoSum();
+        System.out.println(twoSum.twoSum(new int[] {2,7,11,15}, 9));
+        System.out.println(twoSum.twoSum(new int[] {3, 2, 4}, 6));
+        System.out.println(twoSum.twoSum(new int[] {3, 3}, 6));
+        */
+
+        palindromeNumber palindromeNumber = new palindromeNumber();
+        System.out.println(palindromeNumber.isPalindrome(121));
+        System.out.println(palindromeNumber.isPalindrome(-121));
+        System.out.println(palindromeNumber.isPalindrome(10));
     }
 }
