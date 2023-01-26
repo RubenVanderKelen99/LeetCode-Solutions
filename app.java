@@ -120,9 +120,16 @@ public class app {
         System.out.println(validParentheses.isValid("("));
         */
 
+        /*
         arrayFromPermutation arrayFromPermutation = new arrayFromPermutation();
         System.out.println(arrayFromPermutation.buildArray(new int[]{0, 2, 1, 5, 3, 4}));
         System.out.println(arrayFromPermutation.buildArray(new int[]{5, 0, 1, 2, 3, 4}));
+        */
+
+        concatenationOfArray concatenationOfArray = new concatenationOfArray();
+        System.out.println(concatenationOfArray.getConcatenation(new int[] {1, 2, 1}));
+        System.out.println(concatenationOfArray.getConcatenation(new int[] {1, 3, 2, 1}));
+        System.out.println(concatenationOfArray.getConcatenation(new int[] {1}));
 
     }
 }
