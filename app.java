@@ -65,9 +65,23 @@ public class app {
         System.out.println(palindromePartitioning.partition("cbbbcc"));
         */
 
+        /*
         findTheTownJudge findTheTownJudge = new findTheTownJudge();
         System.out.println(findTheTownJudge.findJudge(2, new int[][] {{1,2}}));
         System.out.println(findTheTownJudge.findJudge(3, new int[][] {{1,3},{2,3}}));
         System.out.println(findTheTownJudge.findJudge(3, new int[][] {{1,3},{2,3},{3,1}}));
+        */
+
+        /*
+        findClosestNodeToGivenTwoNodes findClosestNodeToGivenTwoNodes = new findClosestNodeToGivenTwoNodes();
+        System.out.println(findClosestNodeToGivenTwoNodes.closestMeetingNode(new int[] {2, 2, 3, -1}, 0, 1));
+        System.out.println(findClosestNodeToGivenTwoNodes.closestMeetingNode(new int[] {1, 2, -1}, 0, 2));
+        System.out.println(findClosestNodeToGivenTwoNodes.closestMeetingNode(new int[]{9,8,7,0,5,6,1,3,2,2}, 1, 6));
+        */
+
+        cheapestFlightWithinKStops cheapestFlightWithinKStops = new cheapestFlightWithinKStops();
+        System.out.println(cheapestFlightWithinKStops.findCheapestPrice(4, new int[][] {{0, 1, 100}, {1, 2, 100}, {2, 0, 100}, {1, 3, 600}, {2, 3, 200}}, 0, 3, 1));
+        System.out.println(cheapestFlightWithinKStops.findCheapestPrice(3, new int[][] {{0, 1, 100}, {1, 2, 100}, {0, 2, 500}}, 0, 2, 1));
+        System.out.println(cheapestFlightWithinKStops.findCheapestPrice(3, new int[][] {{0, 1, 100}, {1, 2, 100}, {0, 2, 500}}, 0, 2, 0));
     }
 }
