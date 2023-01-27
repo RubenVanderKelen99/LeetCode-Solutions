@@ -1,7 +1,7 @@
 // 14. Longest Common Prefix
 // https://leetcode.com/problems/longest-common-prefix/
 public class longestCommonPrefix {
-    public String longestCommonPrefix(String[] strs) {
+    public String getLongestCommonPrefix(String[] strs) {
         String prefix = "";
 
         if(strs.length == 1) {

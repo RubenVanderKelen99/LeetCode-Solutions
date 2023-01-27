@@ -95,9 +95,9 @@ public class app {
 
         /*
         twoSum twoSum = new twoSum();
-        System.out.println(twoSum.twoSum(new int[] {2,7,11,15}, 9));
-        System.out.println(twoSum.twoSum(new int[] {3, 2, 4}, 6));
-        System.out.println(twoSum.twoSum(new int[] {3, 3}, 6));
+        System.out.println(twoSum.getTwoSum(new int[] {2,7,11,15}, 9));
+        System.out.println(twoSum.getTwoSum(new int[] {3, 2, 4}, 6));
+        System.out.println(twoSum.getTwoSum(new int[] {3, 3}, 6));
         */
 
         /*
@@ -109,8 +109,8 @@ public class app {
 
         /*
         longestCommonPrefix longestCommonPrefix = new longestCommonPrefix();
-        System.out.println(longestCommonPrefix.longestCommonPrefix(new String[] {"flower", "flow", "flight"}));
-        System.out.println(longestCommonPrefix.longestCommonPrefix(new String[] {"dog", "racecar", "car"}));
+        System.out.println(longestCommonPrefix.getLongestCommonPrefix(new String[] {"flower", "flow", "flight"}));
+        System.out.println(longestCommonPrefix.getLongestCommonPrefix(new String[] {"dog", "racecar", "car"}));
         */
 
         /*
