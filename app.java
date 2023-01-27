@@ -126,10 +126,19 @@ public class app {
         System.out.println(arrayFromPermutation.buildArray(new int[]{5, 0, 1, 2, 3, 4}));
         */
 
+        /*
         concatenationOfArray concatenationOfArray = new concatenationOfArray();
         System.out.println(concatenationOfArray.getConcatenation(new int[] {1, 2, 1}));
         System.out.println(concatenationOfArray.getConcatenation(new int[] {1, 3, 2, 1}));
         System.out.println(concatenationOfArray.getConcatenation(new int[] {1}));
+        */
 
+        strongPasswordChecker strongPasswordChecker = new strongPasswordChecker();
+        strongPasswordChecker.stepsToStrongPassword("a");
+        strongPasswordChecker.stepsToStrongPassword("");
+        strongPasswordChecker.stepsToStrongPassword("Baaabb0");
+        strongPasswordChecker.stepsToStrongPassword("Baaba0");
+        strongPasswordChecker.stepsToStrongPassword("1337C0d3");
+        strongPasswordChecker.stepsToStrongPassword("a11.a11.a11.1.X..a1");
     }
 }
