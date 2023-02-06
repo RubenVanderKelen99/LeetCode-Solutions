@@ -143,8 +143,14 @@ public class app {
         strongPasswordChecker.stepsToStrongPassword("a11.a11.a11.1.X..a1");
         */
 
+        /*
         concatenatedWords concatenatedWords = new concatenatedWords();
         System.out.println(concatenatedWords.findAllConcatenatedWordsInADict(new String[] {"cat","cats","catsdogcats","dog","dogcatsdog","hippopotamuses","rat","ratcatdogcat"}));
         System.out.println(concatenatedWords.findAllConcatenatedWordsInADict(new String[] {"cat","dog","catdog"}));
+        */
+
+        findAllAnagrams findAllAnagrams = new findAllAnagrams();
+        findAllAnagrams.findAnagrams("cbaebabacd", "abc");
+        findAllAnagrams.findAnagrams("abab", "ab"); 
     }
 }
